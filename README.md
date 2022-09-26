@@ -5,7 +5,7 @@
 ## 資料庫位置和刪除方式
 * 資料庫有分成兩個部分，一個是SQLdata，另一個是file system
   * SQL是指標資料，指向file system的資料，方便查找，這些是需要清除的部分之一。
-    * 進入SQL之後，請保留原本的table名稱和schema，並且把除了course以外的所有table中的row全數刪除，即可完成這部分的重製。
+    * 進入SQL之後，請保留原本的table名稱和schema，並且把除了course以外的所有table中的row全數刪除，即可完成這部分的重製，同時，**如果已經將file system中的database刪除的話，這一步一定要做! 否則會出現錯誤**
     
   * file system 是用來儲存實際的資料，主要會有三個部分、使用者訓練出來的模型、使用者的資料、使用者執行遇到的執行狀況，這三者都需要進行清除，不過這些資料夾都在Incore裏頭，請到Incore的部分看說明。
 ## 重要資訊
