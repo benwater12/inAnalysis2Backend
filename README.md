@@ -1,5 +1,4 @@
 # inAnalysis2Backend 使用說明
-###### tags: 碩士
 ## 啟動方式
 1. 在inAnalysis2Backend的根目錄，使用python 3.6，啟動src中的apps.py檔案
 2. 指令 ```python3.6 ./src/apps.py```
