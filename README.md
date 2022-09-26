@@ -11,7 +11,7 @@
 ## 重要資訊
 * 因為github為公開，重新安裝時，需要使用者在根目錄中新建一個secret.cfg，詳細需要填寫的內容以下
 
-````
+```
 host=the_IP_of_backend
 port=the_port_of_backend
 secretkey=the_Secret_Key(can be any string)
@@ -23,3 +23,7 @@ corehost=the_IP_of_Incore
 coreport=the_port_of_Incore
 frontendhost=the_IP_of_frontend
 frontendport=the_port_of_frontend
+```
+## SQL Schema
+![Screenshot_2022-09-26_16-24-23](https://user-images.githubusercontent.com/22317334/192229775-7857cf29-b66b-4862-82f7-5ce8f951b929.png)
+![Screenshot_2022-09-26_16-24-30](https://user-images.githubusercontent.com/22317334/192229785-5e10bfe0-ab73-482e-bfd8-aef77bdde291.png)
