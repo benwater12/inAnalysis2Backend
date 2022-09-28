@@ -10,6 +10,7 @@
   * file system 是用來儲存實際的資料，主要會有三個部分、使用者訓練出來的模型、使用者的資料、使用者執行遇到的執行狀況，這三者都需要進行清除，不過這些資料夾都在Incore裏頭，請到Incore的部分看說明。
 ## 重要資訊
 * 因為github為公開，重新安裝時，需要使用者在根目錄中新建一個secret.cfg，詳細需要填寫的內容以下
+* 然後，要登入inanalysis的信箱(密碼在桌面上)，同時把google_token.pickle刪除，找一個實驗室的朋友，新註冊一個帳號，之後google會進行網頁認證，走過一次流程，程式碼會更新一個google_token.pickle。
 
 ```
 host=the_IP_of_backend
